@@ -34,6 +34,7 @@ img {
 }
 
 .restaurant-container {
+  margin-top: 50px;
   width: 100vw;
   display: inline-flex;
   flex-wrap: wrap;
@@ -43,10 +44,30 @@ img {
 
 .navbar {
   width: 100vw;
+  display: flex;
+  justify-content: baseline;
+  background-color: #edad78;
+  color: #F9FBE7;
 }
 
-.nav {
-  display: inline-block;
+.header {
+  height: 60vh;
+}
+
+ul {
+  list-style-type: none;
+  margin: 10px;
+  padding: 0;
+}
+
+li {
+  margin: 10px;
+  display: inline;
+}
+
+li:hover {
+  color: #fd7777;
+  cursor: pointer;
 }
 
 h2 {
@@ -55,4 +76,31 @@ h2 {
 
 p {
   font-size: 0.7rem;
+}
+
+#main-background {
+  object-fit:cover;
+  width: 100vw;
+  height: 60vh;
+}
+
+#search {
+  position: relative;
+  top: -300px;
+}
+
+input {
+  width: 40vw;
+  height: 3vh;
+  margin: 10px;
+  border-radius: 5px;
+  background-color: #F9FBE7;
+  color: #fd7777;
+}
+
+button {
+  height: 3vh;
+  border-radius: 5px;
+  color: #fd7777;
+  background-color: #F9FBE7;
 }
