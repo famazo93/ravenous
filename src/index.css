@@ -14,7 +14,7 @@ main {
   justify-content: center;
 }
 
-img {
+.restaurant-img {
   width: 100px;
   height: 80px;
   border: 1px solid #fd7777;
@@ -28,13 +28,13 @@ img {
   padding: 10px;
   margin: 10px;
   width: 200px;
-  height: 280px;
+  height: 300px;
   background-color: #F9FBE7;
   color: #fd7777;
 }
 
 .restaurant-container {
-  margin-top: 50px;
+  margin-top: 80px;
   width: 100vw;
   display: inline-flex;
   flex-wrap: wrap;
@@ -43,26 +43,16 @@ img {
 }
 
 .navbar {
-  width: 100vw;
-  display: flex;
-  justify-content: baseline;
   background-color: #edad78;
+  color: #F9FBE7;
+}
+
+.nav-link {
   color: #F9FBE7;
 }
 
 .header {
   height: 60vh;
-}
-
-ul {
-  list-style-type: none;
-  margin: 10px;
-  padding: 0;
-}
-
-li {
-  margin: 10px;
-  display: inline;
 }
 
 li:hover {
@@ -86,21 +76,21 @@ p {
 
 #search {
   position: relative;
-  top: -300px;
+  top: -380px;
 }
 
-input {
-  width: 40vw;
-  height: 3vh;
+.form-control {
+  width: 50%;
+  transform: translate(50%);
   margin: 10px;
-  border-radius: 5px;
-  background-color: #F9FBE7;
-  color: #fd7777;
 }
 
-button {
-  height: 3vh;
-  border-radius: 5px;
-  color: #fd7777;
-  background-color: #F9FBE7;
+.search {
+  text-align: center;
+}
+
+.col-form-label {
+  font-size: 2rem;
+  color: #C63D2F;
+  text-shadow: 2px 2px 5px #edad78;
 }

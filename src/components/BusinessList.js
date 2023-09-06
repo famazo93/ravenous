@@ -1,11 +1,9 @@
-import restaurants from '../restaurants'
 import Business from './Business'
-console.log(restaurants);
 
-function RestaurantPreview() {
+function RestaurantPreview(props) {
     return (
         <div className='restaurant-container'>
-            {restaurants.map(restaurant => <Business 
+            {props.restaurants.map(restaurant => <Business 
                     img={restaurant.img}
                     name={restaurant.name}
                     address={restaurant.address}

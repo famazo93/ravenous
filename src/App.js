@@ -1,12 +1,13 @@
 import './App.css';
-import RestaurantPreview from './components/RestaurantPreview'
+import RestaurantPreview from './components/BusinessList'
 import Header from './components/Header'
+import restaurants from './restaurants'
 
 function App() {
   return (
       <main className='App'>
         <Header />
-        <RestaurantPreview  />
+        <RestaurantPreview  restaurants={restaurants} />
       </main>
   );
 }
